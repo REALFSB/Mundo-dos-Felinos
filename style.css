@@ -1,0 +1,116 @@
+
+
+* {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #edf2f4;
+}
+
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    background-color: #2b2d42;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    transition: background .2s; 
+}
+
+#menu-h ul li a:hover {
+    background-color: #d90429;
+}
+
+#menu-g ul{
+    list-style: none;
+    padding: 0;
+}
+
+#menu-g ul li {
+    display: inline-block;
+    background-color: #edf2f4;
+}
+
+#menu-g ul li a:hover {
+    background-color: #d90429;
+}
+
+#menu-g ul li a {
+    max-width: 800px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.titulo {
+    background-color: #8d99ae;
+    padding: 1px;
+}
+
+.paragrafo {
+    text-indent: 10px;
+    font-size: 20pt;
+    text-align: center;
+    color: black;
+}
+
+#Gato {
+    padding: 1px;
+    text-align: center;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+#Curiosidades {
+    margin: 10px;
+}
+
+ol li {
+    padding: 5px;
+}
+
+.frase {
+    padding: 0 20%;
+    text-align: justify;
+    font-size: 16pt;
+}
+
+.frase2{
+    text-align: justify; 
+    font-size: 14pt;
+}
+
+.container {
+    width: 850px;
+    display: flex;
+    margin: 10px;
+    padding: 0 30px;
+}
+
+.conteudo {
+    margin: 10px;
+    padding: 0 50px;
+}
+
+#IrTopo {
+    text-decoration: none;
+    background-color: #d90429;
+    color: white;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+}
+
+
